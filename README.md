@@ -1,14 +1,7 @@
 # Buat root di VPS
-- Step 1
+- instalasi 
 ```
 sudo su
-```
-- Step 2
-```
-cd
-```
-- Step 3
-```
-apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubusercontent.com/prabowo-tunnel/rootvps/rootvps.sh && bash rootvps.sh
+apt update && apt install wget -y && wget -O rootvps.sh https://raw.githubusercontent.com/prabowo-tunnel/rootvps/main/rootvps.sh && chmod +x rootvps.sh && ./rootvps.sh
   
 ```

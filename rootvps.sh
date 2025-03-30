@@ -1,5 +1,5 @@
 #!/bin/bash
-
+apt install lolcat
 # Ganti password root
 echo "Masukkan password baru untuk root:"
 read -s password
@@ -11,8 +11,8 @@ echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 # Restart layanan SSH
 service ssh restart
 rm -rf rootvps.sh
-echo "Password root telah diubah dan akses SSH telah dikonfigurasi."
-exit
+echo "root succeess !" lolcat
+
 exit
 exit
 

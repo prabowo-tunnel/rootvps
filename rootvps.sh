@@ -11,3 +11,7 @@ echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 service ssh restart
 rm -rf rootvps.sh
 echo "Password root telah diubah dan akses SSH telah dikonfigurasi."
+exit
+exit
+exit
+

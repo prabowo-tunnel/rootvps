@@ -1,7 +1,5 @@
 #!/bin/bash
-apt update -y
-apt upgrade -y
-apt install wget -y
+
 # Ganti password root
 echo "Masukkan password baru untuk root:"
 read -s password

@@ -7,7 +7,7 @@ BYellow='\e[1;33m'
 BBlue='\e[1;34m'
 BPurple='\e[1;35m'
 NC='\e[0m'
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/prabowo-tunnel/rootvps/main/sshd_config;
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/prabowo-tunnel/rootvps/main/sshd_config;
 systemctl restart sshd;
 clear;
 read -p "Enter Password : " passwd
